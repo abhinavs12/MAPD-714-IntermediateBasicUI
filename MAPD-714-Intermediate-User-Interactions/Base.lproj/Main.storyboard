@@ -81,10 +81,16 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AdP-O6-oeW">
                                 <rect key="frame" x="16" y="506" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onSwitchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="rUD-i8-kEB"/>
+                                </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4mA-e2-wxG">
                                 <rect key="frame" x="303" y="506" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onSwitchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="t5s-cs-h3v"/>
+                                </connections>
                             </switch>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdd-lI-Y3q">
                                 <rect key="frame" x="16" y="506" width="336" height="30"/>
@@ -94,6 +100,9 @@
                                 <state key="normal" title="Do Something">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="onDoSomethingPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mBD-hg-CFL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99607843137254903" green="0.76470588235294112" blue="0.039215686274509803" alpha="1" colorSpace="calibratedRGB"/>

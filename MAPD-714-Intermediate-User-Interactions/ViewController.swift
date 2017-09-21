@@ -3,7 +3,7 @@
  * Date: September 20, 2017
  * StudentID: 300975677
  * Description: Intermediate User Interaction Demo
- * Version: 0.1 - Built Basic UI
+ * Version: 0.2 - Added Outlets and Actions
  */
 
 import UIKit
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         
     }
 
-    //ACTION METHODS
+    //ACTION METHODS ++++++++++++++
     @IBAction func onSliderChange(_ sender: UISlider) {
         
         
@@ -34,6 +34,19 @@ class ViewController: UIViewController {
     @IBAction func onSegmentedControlChange(_ sender: UISegmentedControl) {
         
         
+        
+    }
+    
+    @IBAction func onDoSomethingPressed(_ sender: UIButton) {
+        
+        
+        
+    }
+    
+    @IBAction func onSwitchChanged(_ sender: UISwitch) {
+    
+    
+    
     }
     
 
